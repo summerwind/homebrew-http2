@@ -1,5 +1,5 @@
 # Homebrew HTTP/2
-These formulae provide servers and libraries for HTTP/2.
+These formulae provide tools and libraries for HTTP/2.
 
 ## How do I install these formulae?
 `brew install summerwind/http2/<formula>`
