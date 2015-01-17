@@ -4,13 +4,6 @@ class Curl < Formula
   mirror "http://ftp.sunet.se/pub/www/utilities/curl/curl-7.40.0.tar.bz2"
   sha256 "899109eb3900fa6b8a2f995df7f449964292776a04763e94fae640700f883fba"
 
-  bottle do
-    cellar :any
-    sha1 "a5ba00d51a113752e962ba8ee0911c1c496d6cbc" => :yosemite
-    sha1 "c36652236b7b624913370adf309c9e838c571018" => :mavericks
-    sha1 "624a82135884081cef194e5313e0652a16b240b0" => :mountain_lion
-  end
-
   keg_only :provided_by_osx
 
   option "with-libidn", "Build with support for Internationalized Domain Names"
