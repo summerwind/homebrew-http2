@@ -2,7 +2,7 @@ require 'formula'
 
 HOMEBREW_H2SPEC_VERSION='0.0.2'
 
-class Peco < Formula
+class H2spec < Formula
   homepage 'https://github.com/summerwind/h2spec'
 
   if OS.mac?
