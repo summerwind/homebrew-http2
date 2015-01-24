@@ -26,7 +26,7 @@ class Curl < Formula
   depends_on "c-ares" => :optional
   depends_on "libmetalink" => :optional
   depends_on "libressl" => :optional
-  depends_on "summerwind/http2/openssl"
+  depends_on "openssl"
   depends_on "summerwind/http2/nghttp2"
 
   def install

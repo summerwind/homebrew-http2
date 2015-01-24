@@ -13,7 +13,7 @@ class Nghttp2 < Formula
   depends_on 'libtool'    => :build
   depends_on 'pkg-config' => :build
   depends_on 'libxml2'
-  depends_on 'summerwind/http2/openssl'
+  depends_on 'openssl'
   depends_on 'libev'
   depends_on 'jansson'
 
