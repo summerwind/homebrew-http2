@@ -3,9 +3,9 @@ require 'formula'
 class Nghttp2 < Formula
   homepage 'http://nghttp2.org'
 
-  url 'https://codeload.github.com/tatsuhiro-t/nghttp2/zip/v0.7.1'
-  sha1 '4a53b37c61eb16f4122fd909f215f00d85a44c0f'
-  version '0.7.1'
+  url 'https://codeload.github.com/tatsuhiro-t/nghttp2/zip/v0.7.3'
+  sha1 '1738f1ce7e5230d64fe0cc0af857a66528c0701c'
+  version '0.7.3'
   head 'https://github.com/tatsuhiro-t/nghttp2.git'
 
   depends_on 'autoconf'   => :build
