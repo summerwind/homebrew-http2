@@ -27,7 +27,7 @@ class Curl < Formula
   depends_on "libmetalink" => :optional
   depends_on "libressl" => :optional
   depends_on "openssl"
-  depends_on "summerwind/http2/nghttp2"
+  depends_on "nghttp2"
 
   def install
     # Throw an error if someone actually tries to rock both SSL choices.
