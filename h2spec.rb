@@ -1,16 +1,16 @@
 require 'formula'
 
-HOMEBREW_H2SPEC_VERSION='0.0.5'
+HOMEBREW_H2SPEC_VERSION='0.0.6'
 
 class H2spec < Formula
   homepage 'https://github.com/summerwind/h2spec'
 
   if OS.mac?
     url "https://github.com/summerwind/h2spec/releases/download/v#{HOMEBREW_H2SPEC_VERSION}/h2spec_darwin_amd64.zip"
-    sha1 "5bb5f21c834281be1ba8d44a60f3b70ae070ae55"
+    sha1 "e76159bbc4b7d722d5dba417dcfffb37df8e55ba"
   elsif OS.linux?
     url "https://github.com/summerwind/h2spec/releases/download/v#{HOMEBREW_H2PSEC_VERSION}/h2spec_linux_amd64.zip"
-    sha1 "a74fa603fabfc1de8c181b9b2e0a29c59c723660"
+    sha1 "ad8ea71a6ff953a859839af229aa68600622c4c3"
   end
 
   version HOMEBREW_H2SPEC_VERSION
